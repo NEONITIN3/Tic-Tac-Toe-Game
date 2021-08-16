@@ -1,3 +1,5 @@
+var a= prompt("enter your name please");
+
 function myfunc() {
 
 	// Setting DOM to all boxes or input field
@@ -117,99 +119,92 @@ function myfunc() {
 	// not and after that disabled all the other fields
 	else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
 		b2 == '0') && (b3 == '0' || b3 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+		
+		
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
 		b4 == '0') && (b7 == '0' || b7 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+		
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
 		b8 == '0') && (b9 == '0' || b9 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+	
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
 		b6 == '0') && (b9 == '0' || b9 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+	
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
 		b5 == '0') && (b9 == '0' || b9 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+		
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
 		b5 == '0') && (b7 == '0' || b7 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+	
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
 		b5 == '0') && (b8 == '0' || b8 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+	
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 	else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
 		b5 == '0') && (b6 == '0' || b6 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Player YOU won";
+	
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Player YOU won');
+		window.alert("congratulation "+ a + " you are the winner");
 	}
 
 	// Checking of Player 0 finsh
